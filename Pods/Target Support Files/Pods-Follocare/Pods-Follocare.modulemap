@@ -1,0 +1,6 @@
+framework module Pods_Follocare {
+  umbrella header "Pods-Follocare-umbrella.h"
+
+  export *
+  module * { export * }
+}

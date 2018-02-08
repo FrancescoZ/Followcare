@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421B40EB1FD46BB5004CB618 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B40EA1FD46BB5004CB618 /* AppDelegate.swift */; };
+		421B40F01FD46BB5004CB618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421B40EE1FD46BB5004CB618 /* Main.storyboard */; };
+		421B40F21FD46BB5004CB618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421B40F11FD46BB5004CB618 /* Assets.xcassets */; };
+		421B40F51FD46BB5004CB618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421B40F31FD46BB5004CB618 /* LaunchScreen.storyboard */; };
+		421B41001FD46BB5004CB618 /* FollocareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B40FF1FD46BB5004CB618 /* FollocareTests.swift */; };
+		421B410D1FD4720A004CB618 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421B410C1FD4720A004CB618 /* MenuViewController.swift */; };
+		423C25B61FFE6C0600891B0D /* CommentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423C25B51FFE6C0600891B0D /* CommentLayout.swift */; };
+		42546DC92024941C00FFE781 /* SettingCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42546DC82024941C00FFE781 /* SettingCommentViewController.swift */; };
+		42546DCB202498AE00FFE781 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42546DCA202498AE00FFE781 /* Comment.swift */; };
+		425742451FD68BF8008C1E7E /* TextSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425742441FD68BF8008C1E7E /* TextSwitch.swift */; };
+		4269EFA41FF01F5F0014F288 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269EFA31FF01F5F0014F288 /* User.swift */; };
+		4269EFA61FF021960014F288 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4269EFA51FF021960014F288 /* Setting.swift */; };
+		426A9B131FD92E9800A1E918 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426A9B121FD92E9800A1E918 /* ProfileViewController.swift */; };
+		426C641B1FED49530062BBE5 /* ImageCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426C641A1FED49530062BBE5 /* ImageCommentViewController.swift */; };
+		42B7ABC12017E3AA0079CB65 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B7ABC02017E3AA0079CB65 /* SettingsViewController.swift */; };
+		C660826A82787191782E3A1A /* Pods_FollocareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9182BDA699AA853787DE06C4 /* Pods_FollocareTests.framework */; };
+		DFFF57F1D4C763BE6DE5CA51 /* Pods_Follocare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1C148695CBDD3072986A56 /* Pods_Follocare.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421B40FC1FD46BB5004CB618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421B40DF1FD46BB5004CB618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421B40E61FD46BB5004CB618;
+			remoteInfo = Follocare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		289556A6D617BDE979B7ACC0 /* Pods-FollocareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FollocareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FollocareTests/Pods-FollocareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		421B40E71FD46BB5004CB618 /* Follocare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Follocare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421B40EA1FD46BB5004CB618 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		421B40EF1FD46BB5004CB618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		421B40F11FD46BB5004CB618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421B40F41FD46BB5004CB618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		421B40F61FD46BB5004CB618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421B40FB1FD46BB5004CB618 /* FollocareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FollocareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421B40FF1FD46BB5004CB618 /* FollocareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollocareTests.swift; sourceTree = "<group>"; };
+		421B41011FD46BB5004CB618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421B410C1FD4720A004CB618 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		423C25B51FFE6C0600891B0D /* CommentLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentLayout.swift; sourceTree = "<group>"; };
+		42546DC82024941C00FFE781 /* SettingCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCommentViewController.swift; sourceTree = "<group>"; };
+		42546DCA202498AE00FFE781 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		425742441FD68BF8008C1E7E /* TextSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSwitch.swift; sourceTree = "<group>"; };
+		4269EFA31FF01F5F0014F288 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4269EFA51FF021960014F288 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		426A9B121FD92E9800A1E918 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		426C641A1FED49530062BBE5 /* ImageCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCommentViewController.swift; sourceTree = "<group>"; };
+		42B7ABC02017E3AA0079CB65 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		47307AD3E8F8FC6971F4A49D /* Pods-Follocare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Follocare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Follocare/Pods-Follocare.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1C148695CBDD3072986A56 /* Pods_Follocare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Follocare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9182BDA699AA853787DE06C4 /* Pods_FollocareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FollocareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB800C9DAFBB38FEA9E0588 /* Pods-Follocare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Follocare.release.xcconfig"; path = "Pods/Target Support Files/Pods-Follocare/Pods-Follocare.release.xcconfig"; sourceTree = "<group>"; };
+		D4EEA40BF41D90BEBAFB3D01 /* Pods-FollocareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FollocareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FollocareTests/Pods-FollocareTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421B40E41FD46BB5004CB618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFFF57F1D4C763BE6DE5CA51 /* Pods_Follocare.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421B40F81FD46BB5004CB618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C660826A82787191782E3A1A /* Pods_FollocareTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B1630EA6D2E9359111A6BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C1C148695CBDD3072986A56 /* Pods_Follocare.framework */,
+				9182BDA699AA853787DE06C4 /* Pods_FollocareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		421B40DE1FD46BB5004CB618 = {
+			isa = PBXGroup;
+			children = (
+				421B40E91FD46BB5004CB618 /* Follocare */,
+				421B40FE1FD46BB5004CB618 /* FollocareTests */,
+				421B40E81FD46BB5004CB618 /* Products */,
+				A84BC3B2688A6B338F691FAA /* Pods */,
+				15B1630EA6D2E9359111A6BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		421B40E81FD46BB5004CB618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421B40E71FD46BB5004CB618 /* Follocare.app */,
+				421B40FB1FD46BB5004CB618 /* FollocareTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421B40E91FD46BB5004CB618 /* Follocare */ = {
+			isa = PBXGroup;
+			children = (
+				4269EFA21FF01F460014F288 /* Models */,
+				426A9B111FD92E6E00A1E918 /* Components */,
+				425742461FD68F41008C1E7E /* Helper */,
+				421B410A1FD46C00004CB618 /* Views */,
+				421B40EA1FD46BB5004CB618 /* AppDelegate.swift */,
+				421B40F11FD46BB5004CB618 /* Assets.xcassets */,
+				421B40F31FD46BB5004CB618 /* LaunchScreen.storyboard */,
+				421B40F61FD46BB5004CB618 /* Info.plist */,
+			);
+			path = Follocare;
+			sourceTree = "<group>";
+		};
+		421B40FE1FD46BB5004CB618 /* FollocareTests */ = {
+			isa = PBXGroup;
+			children = (
+				421B40FF1FD46BB5004CB618 /* FollocareTests.swift */,
+				421B41011FD46BB5004CB618 /* Info.plist */,
+			);
+			path = FollocareTests;
+			sourceTree = "<group>";
+		};
+		421B410A1FD46C00004CB618 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42B7ABBF2017E3870079CB65 /* Setting */,
+				4269EFA71FF12BBB0014F288 /* Comments */,
+				426A9B141FD92F2700A1E918 /* Profile */,
+				421B410B1FD471D5004CB618 /* Menu */,
+				421B40EE1FD46BB5004CB618 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		421B410B1FD471D5004CB618 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				421B410C1FD4720A004CB618 /* MenuViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		425742411FD68AF9008C1E7E /* TextSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				425742441FD68BF8008C1E7E /* TextSwitch.swift */,
+			);
+			name = TextSwitch;
+			sourceTree = "<group>";
+		};
+		425742461FD68F41008C1E7E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				425742471FD68F48008C1E7E /* View */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		425742471FD68F48008C1E7E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4269EFA21FF01F460014F288 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4269EFA31FF01F5F0014F288 /* User.swift */,
+				4269EFA51FF021960014F288 /* Setting.swift */,
+				42546DCA202498AE00FFE781 /* Comment.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4269EFA71FF12BBB0014F288 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				426C641A1FED49530062BBE5 /* ImageCommentViewController.swift */,
+			);
+			name = Comments;
+			sourceTree = "<group>";
+		};
+		426A9B111FD92E6E00A1E918 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				425742411FD68AF9008C1E7E /* TextSwitch */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		426A9B141FD92F2700A1E918 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				426A9B121FD92E9800A1E918 /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		42B7ABBF2017E3870079CB65 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				42546DC82024941C00FFE781 /* SettingCommentViewController.swift */,
+				42BD5D7F1FFE6525009A8094 /* CollectView */,
+				42B7ABC02017E3AA0079CB65 /* SettingsViewController.swift */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		42BD5D7F1FFE6525009A8094 /* CollectView */ = {
+			isa = PBXGroup;
+			children = (
+				423C25B51FFE6C0600891B0D /* CommentLayout.swift */,
+			);
+			name = CollectView;
+			sourceTree = "<group>";
+		};
+		A84BC3B2688A6B338F691FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47307AD3E8F8FC6971F4A49D /* Pods-Follocare.debug.xcconfig */,
+				ACB800C9DAFBB38FEA9E0588 /* Pods-Follocare.release.xcconfig */,
+				289556A6D617BDE979B7ACC0 /* Pods-FollocareTests.debug.xcconfig */,
+				D4EEA40BF41D90BEBAFB3D01 /* Pods-FollocareTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421B40E61FD46BB5004CB618 /* Follocare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421B41041FD46BB5004CB618 /* Build configuration list for PBXNativeTarget "Follocare" */;
+			buildPhases = (
+				A7B1498601A221131DD431B9 /* [CP] Check Pods Manifest.lock */,
+				421B40E31FD46BB5004CB618 /* Sources */,
+				421B40E41FD46BB5004CB618 /* Frameworks */,
+				421B40E51FD46BB5004CB618 /* Resources */,
+				9C4C2BBBA32D37D49D2E85AA /* [CP] Embed Pods Frameworks */,
+				F524FF4340BA7EBF613B2F30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Follocare;
+			productName = Follocare;
+			productReference = 421B40E71FD46BB5004CB618 /* Follocare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		421B40FA1FD46BB5004CB618 /* FollocareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421B41071FD46BB5004CB618 /* Build configuration list for PBXNativeTarget "FollocareTests" */;
+			buildPhases = (
+				7D6D07FC5B31B8DE56481B92 /* [CP] Check Pods Manifest.lock */,
+				421B40F71FD46BB5004CB618 /* Sources */,
+				421B40F81FD46BB5004CB618 /* Frameworks */,
+				421B40F91FD46BB5004CB618 /* Resources */,
+				804DD9B6B69B92089276FCA5 /* [CP] Embed Pods Frameworks */,
+				2FAD27B07DD80F8B85CFCE35 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421B40FD1FD46BB5004CB618 /* PBXTargetDependency */,
+			);
+			name = FollocareTests;
+			productName = FollocareTests;
+			productReference = 421B40FB1FD46BB5004CB618 /* FollocareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421B40DF1FD46BB5004CB618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Francesco Zanoli";
+				TargetAttributes = {
+					421B40E61FD46BB5004CB618 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					421B40FA1FD46BB5004CB618 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 421B40E61FD46BB5004CB618;
+					};
+				};
+			};
+			buildConfigurationList = 421B40E21FD46BB5004CB618 /* Build configuration list for PBXProject "Follocare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421B40DE1FD46BB5004CB618;
+			productRefGroup = 421B40E81FD46BB5004CB618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421B40E61FD46BB5004CB618 /* Follocare */,
+				421B40FA1FD46BB5004CB618 /* FollocareTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421B40E51FD46BB5004CB618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421B40F51FD46BB5004CB618 /* LaunchScreen.storyboard in Resources */,
+				421B40F21FD46BB5004CB618 /* Assets.xcassets in Resources */,
+				421B40F01FD46BB5004CB618 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421B40F91FD46BB5004CB618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FAD27B07DD80F8B85CFCE35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FollocareTests/Pods-FollocareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6D07FC5B31B8DE56481B92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FollocareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804DD9B6B69B92089276FCA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FollocareTests/Pods-FollocareTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FollocareTests/Pods-FollocareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4C2BBBA32D37D49D2E85AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Follocare/Pods-Follocare-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CircleMenu/CircleMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/FaceAware/FaceAware.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/Koloda/Koloda.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftInstagram/SwiftInstagram.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircleMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaceAware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Koloda.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftInstagram.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Follocare/Pods-Follocare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B1498601A221131DD431B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Follocare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F524FF4340BA7EBF613B2F30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Follocare/Pods-Follocare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421B40E31FD46BB5004CB618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421B410D1FD4720A004CB618 /* MenuViewController.swift in Sources */,
+				425742451FD68BF8008C1E7E /* TextSwitch.swift in Sources */,
+				42B7ABC12017E3AA0079CB65 /* SettingsViewController.swift in Sources */,
+				42546DC92024941C00FFE781 /* SettingCommentViewController.swift in Sources */,
+				4269EFA41FF01F5F0014F288 /* User.swift in Sources */,
+				426A9B131FD92E9800A1E918 /* ProfileViewController.swift in Sources */,
+				4269EFA61FF021960014F288 /* Setting.swift in Sources */,
+				423C25B61FFE6C0600891B0D /* CommentLayout.swift in Sources */,
+				426C641B1FED49530062BBE5 /* ImageCommentViewController.swift in Sources */,
+				42546DCB202498AE00FFE781 /* Comment.swift in Sources */,
+				421B40EB1FD46BB5004CB618 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421B40F71FD46BB5004CB618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421B41001FD46BB5004CB618 /* FollocareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421B40FD1FD46BB5004CB618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421B40E61FD46BB5004CB618 /* Follocare */;
+			targetProxy = 421B40FC1FD46BB5004CB618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		421B40EE1FD46BB5004CB618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421B40EF1FD46BB5004CB618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		421B40F31FD46BB5004CB618 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421B40F41FD46BB5004CB618 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		421B41021FD46BB5004CB618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		421B41031FD46BB5004CB618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421B41051FD46BB5004CB618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47307AD3E8F8FC6971F4A49D /* Pods-Follocare.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Follocare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.Follocare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		421B41061FD46BB5004CB618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB800C9DAFBB38FEA9E0588 /* Pods-Follocare.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Follocare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.Follocare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		421B41081FD46BB5004CB618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289556A6D617BDE979B7ACC0 /* Pods-FollocareTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FollocareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.FollocareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Follocare.app/Follocare";
+			};
+			name = Debug;
+		};
+		421B41091FD46BB5004CB618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4EEA40BF41D90BEBAFB3D01 /* Pods-FollocareTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FollocareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.FollocareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Follocare.app/Follocare";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421B40E21FD46BB5004CB618 /* Build configuration list for PBXProject "Follocare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421B41021FD46BB5004CB618 /* Debug */,
+				421B41031FD46BB5004CB618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421B41041FD46BB5004CB618 /* Build configuration list for PBXNativeTarget "Follocare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421B41051FD46BB5004CB618 /* Debug */,
+				421B41061FD46BB5004CB618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421B41071FD46BB5004CB618 /* Build configuration list for PBXNativeTarget "FollocareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421B41081FD46BB5004CB618 /* Debug */,
+				421B41091FD46BB5004CB618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421B40DF1FD46BB5004CB618 /* Project object */;
+}
